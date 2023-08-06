@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Item Form</title>
+</head>
+
+<body>
+    <div class="container my-3 mx-auto">
+        <a href="../index.html" class="btn btn-outline-dark"> Go to Home</a>
+      </div>
+      <!-- Add product form start  -->
+    <div class="container"><br>
+      <div class="col-lg-7 m-auto border-radius bg-secondary">
+           <div class="row">
+              <div class="col-lg-5 m-auto text-center text-danger">
+                  <br>
+        <h1 class="my-5">New Item</h1>
+              </div>
+              </div>
+        <div class="row">
+            <div class="col-lg-5 m-auto text-success">
+                <form id="newItemForm">
+                    <div class="form-group">
+                        <label for="newItemName">Name</label>
+                        <input type="text" class="form-control" id="newItemName"required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"><strong>Product Price:</strong></label>
+                        <input type="Product Price" class="form-control" id="exampleFormControlInput1" placeholder="Price"required>
+                      </div>
+              
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1"><strong>Product category</strong></label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option selected>Select Category</option>
+                        <option>RED</option>
+                        <option>BLUE</option>
+                        <option>BLACK</option>
+                        <option>ORANGE</option>
+                        <option>WHITE</option>
+                      </select>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="newItemDescription">Description</label>
+                        <textarea type="text" class="form-control" id="newItemDescription"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="productImage">Select image:</label>
+                        <input type="file" id="productImage" accept="image/*" required class="w-100 p-1 border border-secondary rounded">
+                    </div>                    
+                    
+                    <button type="submit" class="btn btn-primary btn-block">submit</button><br>
+                </form>
+                <a href="product.html" class="w-100 mx-auto btn-primary rounded btn-outline-dark btn">view added products</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!--<script src="js/itemsController.js"></script>-->
+    <script src="js/item-form.js"></script>
+    <!--<script src="js/index.js"></script>-->
+</body>
+
+</html>
